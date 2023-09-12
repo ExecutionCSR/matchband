@@ -5,6 +5,7 @@ import instagram from '../../public/instagram-40.png'
 export default function Home() {
   return (
     /*navegação*/
+    /* TESTE */
     <div class='bg-[url(../../public/background.jpg)]  bg-cover grid content-between'>
       <nav class='w-screen bg-[#480a64] h-14 text-lg text text-center font-bold text-white border-hidden '>
         MatchBand!
