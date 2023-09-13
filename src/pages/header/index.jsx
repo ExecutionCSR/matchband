@@ -4,13 +4,12 @@ import Image from "next/image"
 
 const Header = () => {
     return (
-        <div className=" border-[1px] border-[#2300FF] w-screen p-2 flex justify-between">
+        <div className=" border-[1px] border-[#2300FF] p-2 flex justify-between">
             <div>
-
-                <Image className="w-10 h-6 justify-end" src={Icone} alt="icone" />
+                <Image className="w-[4rem] h-[2rem] justify-end" src={Icone} alt="icone" />
             </div>
             <div>
-                <Image className="w-10 h-6 justify-start" src={Logo} />
+                <Image className="w-[4rem] h-[2rem] justify-start" src={Logo} />
             </div>
         </div>
     )
