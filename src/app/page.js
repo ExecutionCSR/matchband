@@ -1,4 +1,5 @@
-import PaginaInicial from '@/pages/paginainicial';
+import PaginaInicial from "./paginainicial/page";
+
 
 
 export default function Home() {

@@ -4,6 +4,9 @@ import Facebook from '../../../public/facebook.png';
 import Instagram from '../../../public/instagram.jpg';
 import Google from "../../../public/linkedin.png";
 import Image from 'next/image';
+import Link from 'next/link';
+
+
 
 const Login = () => {
     return (
@@ -45,8 +48,10 @@ const Login = () => {
 
                     {/* Botao */}
                     <div class=' text-right pr-10 pt-5 '>
-                        <button class="rounded-full border-[2px] border-black w-24 text-white p-1 bg-[#150190]">Logar</button>
-                        <p className='text-[#150190]'>Ou Cadastre-se</p>
+                        <Link href="cadastro">
+                            <button class="rounded-full border-[2px] border-black w-24 text-white p-1 bg-[#150190]">Logar</button>
+                            <p className='text-[#150190]'>Ou Cadastre-se</p>
+                        </Link>
                     </div>
 
 

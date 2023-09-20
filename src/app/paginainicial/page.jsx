@@ -1,6 +1,6 @@
+import Header from "../header/page";
+import Login from "../login/page";
 
-import Header from '@/pages/header';
-import Login from '@/pages/login';
 
 
 
