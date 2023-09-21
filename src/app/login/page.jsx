@@ -6,8 +6,6 @@ import Google from "../../../public/linkedin.png";
 import Image from 'next/image';
 import Link from 'next/link';
 
-
-
 const Login = () => {
     return (
         <section className='grid bg-black grid-cols-2'>
@@ -53,8 +51,6 @@ const Login = () => {
                             <p className='text-[#150190]'>Ou Cadastre-se</p>
                         </Link>
                     </div>
-
-
                 </div>
             </div>
         </section>
