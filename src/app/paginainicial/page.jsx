@@ -6,7 +6,7 @@ import Login from "../login/page";
 
 const PaginaInicial = () => {
     return (
-        <main className=''>
+        <main className='bg-black'>
             <Header />
             <div className='m-4 flex flex-col justify-center  items-center'>
                 <div className='h-[3rem] w-[90%] bg-[#150190] rounded border-[1px] border-[#2400FF] '></div>

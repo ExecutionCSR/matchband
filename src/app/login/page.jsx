@@ -10,7 +10,7 @@ import Link from 'next/link';
 
 const Login = () => {
     return (
-        <section className='grid grid-cols-2'>
+        <section className='grid bg-black grid-cols-2'>
             <div className='flex items-center justify-center'>
                 <div className=" absolute w-[500px] h-[500px] bg-white border-[3px] border-[#2400FF]" style={{ "clip-path": "polygon(100% 50%, 0 0, 0 100%)" }}>
                 </div>
