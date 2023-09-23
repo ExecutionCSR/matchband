@@ -30,14 +30,14 @@ const Login = () => {
                     {/* formulario  */}
                     <form className=' w-[100%] cursor-pointer'>
                         <label className='flex ml-5 text-black' htmlFor='email'>Email </label>
-                        <input name='email' type='email' class='w-[90%] border-2 border-black  rounded-full peer'></input>
+                        <input name='email' type='email' className='w-[90%] border-2 border-black  rounded-full peer'></input>
                         <p className=" invisible peer-invalid:visible text-pink-600 text-sm">
                             Por favor insira um email valido.</p>
 
 
                         <label className='flex ml-5 text-black' htmlFor='password'>Senha</label>
 
-                        <input name='password' type='password' class='w-[90%] border-2 border-black  rounded-full peer '></input>
+                        <input name='password' type='password' className='w-[90%] border-2 border-black  rounded-full peer '></input>
                         <p className=" invisible peer-invalid:visible text-pink-600 text-sm">
                             Por favor insira uma senha valida.
                         </p>
@@ -45,9 +45,9 @@ const Login = () => {
                     </form>
 
                     {/* Botao */}
-                    <div class=' text-right pr-10 pt-5 '>
-                        <Link href="cadastro">
-                            <button class="rounded-full border-[2px] border-black w-24 text-white p-1 bg-[#150190]">Logar</button>
+                    <div className=' text-right pr-10 pt-5 '>
+                        <Link href="timeline">
+                            <button className="rounded-full border-[2px] border-black w-24 text-white p-1 bg-[#150190]">Logar</button>
                             <p className='text-[#150190]'>Ou Cadastre-se</p>
                         </Link>
                     </div>
