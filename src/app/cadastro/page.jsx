@@ -12,7 +12,7 @@ const Cadastro = () => {
                 <div className='z-10 h-[2rem] w-[50%] rounded border-[1px] bg-[#2107C5] border-[#2400FF] mt-[-1rem]'></div>
             </div>
             <div className="  w-[90% ] max-w-[80%] h-[81vh] ">
-                <form className=" flex flex-col ml-[25%] p-5 h-[98%] border-solid border-2  border-black " action="">
+                <form className=" flex flex-col ml-[25%] p-5 h-[98%] border-solid border-2 rounded  border-black bg-white" action="">
                     <h1 className="   text-indigo-800 text-[40px] text-center font-bold font-['Inter']">Cadastre suas informaçoes  abaixo</h1>
                     <div className="p-2">
                         <label className="  text-center text-black text-[30px] font-bold font-['Inter']" htmlFor="nome">Nome:</label>
