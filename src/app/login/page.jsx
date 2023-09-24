@@ -32,9 +32,8 @@ const Login = () => {
                         <label className='flex ml-5 text-black' htmlFor='email'>Email </label>
                         <input name='email' type='email' className='w-[90%] border-2 border-black  rounded-full peer'></input>
                         <p className=" invisible peer-invalid:visible text-pink-600 text-sm">
-                            Por favor insira um email valido.</p>
-
-
+                            Por favor insira um email valido.
+                        </p>
                         <label className='flex ml-5 text-black' htmlFor='password'>Senha</label>
 
                         <input name='password' type='password' className='w-[90%] border-2 border-black  rounded-full peer '></input>

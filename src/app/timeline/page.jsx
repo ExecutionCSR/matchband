@@ -1,15 +1,14 @@
 import Image from "next/image";
-import Header from "../header/page";
 import { FaThumbsUp, FaHeart, FaShare, FaUser } from "react-icons/fa6";
 import { FaCommentAlt, FaPlusCircle } from "react-icons/fa";
 import PostImg from "../../../public/estabelecimento_placeholder.png";
 import { Api } from "@/libs/axios";
 import Modal from "@/components/modal";
-
+import Header from "@/components/header";
 
 export const getTimeLine = async () => {
     const posts = await Api.get('/posts/timeline', {});
-    return posts.data
+    return posts.data;
 };
 
 export default async function TimeLine() {

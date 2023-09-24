@@ -1,8 +1,6 @@
-import Header from "../header/page";
+
+import Header from "@/components/header";
 import Login from "../login/page";
-
-
-
 
 const PaginaInicial = () => {
     return (
