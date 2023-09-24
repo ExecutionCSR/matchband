@@ -45,7 +45,7 @@ const Login = () => {
 
                     {/* Botao */}
                     <div className=' text-right pr-10 pt-5 '>
-                        <Link href="timeline">
+                        <Link href="/cadastro">
                             <button className="rounded-full border-[2px] border-black w-24 text-white p-1 bg-[#150190]">Logar</button>
                             <p className='text-[#150190]'>Ou Cadastre-se</p>
                         </Link>

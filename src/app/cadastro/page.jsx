@@ -1,6 +1,7 @@
 import Button from "@/components/button";
 import Header from "@/components/header";
 import Input from "@/components/input";
+import Link from "next/link";
 
 const Cadastro = () => {
     return (
@@ -51,8 +52,12 @@ const Cadastro = () => {
                     <Input nome="endereco" titulo="Endereço:" width="w-[75%]" />
 
                     <div className="text-right text-lg">
-                        <Button class="border-2 pl-8 pr-8 border-black rounded-2xl mr-11 text-black active:bg-[#150190] active:text-[white]" titulo="Voltar" />
-                        <Button class="border-2 pl-8 pr-8 border-black rounded-2xl text-black bg-white active:bg-[#150190] active:text-[white]" titulo="Continuar" />
+                        <Link href="/">
+                            <Button class="border-2 pl-8 pr-8 border-black rounded-2xl mr-11 text-black active:bg-[#150190] active:text-[white]" titulo="Voltar" />
+                        </Link>
+                        <Link href="/timeline">
+                            <Button class="border-2 pl-8 pr-8 border-black rounded-2xl text-black bg-white active:bg-[#150190] active:text-[white]" titulo="Continuar" />
+                        </Link>
                     </div>
 
                 </form>
