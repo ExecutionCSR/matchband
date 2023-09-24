@@ -7,13 +7,13 @@ import { Api } from "@/libs/axios";
 import Modal from "@/components/modal";
 
 
-export const getServerSideProps = async () => {
+export const getTimeLine = async () => {
     const posts = await Api.get('/posts/timeline', {});
     return posts.data
 };
 
 export default async function TimeLine() {
-    const data = await getServerSideProps();
+    const data = await getTimeLine();
     return (
         <main className=" h-[100vh] ">
             <Header />
