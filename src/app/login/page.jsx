@@ -19,12 +19,12 @@ const Login = () => {
                     <div className='p-14'>
                         <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold flex justify-center items-center'>
                             Entre com google
-                            <FcGoogle className='ml-4' size={30}/>
+                            <FcGoogle className='ml-4' size={30} />
                             {/* <Image alt="google" className='w-8 ml-5 inline-flex h-8' src={Google} /> */}
                         </h3>
                         <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold text-center flex justify-center items-center'>
                             Entre com Facebook
-                            <FaSquareFacebook className='ml-4' size={30}/>
+                            <FaSquareFacebook className='ml-4' size={30} />
                             {/* <Image alt="facebook" className='w-8 ml-3 inline-flex h-8' src={Facebook} /> */}
                         </h3>
                         <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold text-center flex justify-center items-center'>
@@ -35,13 +35,12 @@ const Login = () => {
                     {/* formulario  */}
                     <form className=' w-[100%] cursor-pointer'>
                         <label className='flex ml-5 text-black' htmlFor='email'>Email </label>
-                        <input name='email' type='email' className='w-[90%] border-2 border-black  rounded-full peer'></input>
+                        <input name='email' type='email' className='w-[90%] border-2 border-black  rounded-full peer text-black' />
                         <p className=" invisible peer-invalid:visible text-pink-600 text-sm">
                             Por favor insira um email valido.
                         </p>
                         <label className='flex ml-5 text-black' htmlFor='password'>Senha</label>
-
-                        <input name='password' type='password' className='w-[90%] border-2 border-black  rounded-full peer '></input>
+                        <input name='password' type='password' className='w-[90%] border-2 border-black  rounded-full peer text-black' />
                         <p className=" invisible peer-invalid:visible text-pink-600 text-sm">
                             Por favor insira uma senha valida.
                         </p>
