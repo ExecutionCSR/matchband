@@ -1,10 +1,10 @@
 
 import Logo from '../../../public/icone.png';
-import Facebook from '../../../public/facebook.png';
 import Instagram from '../../../public/instagram.jpg';
-import Google from "../../../public/linkedin.png";
 import Image from 'next/image';
 import Link from 'next/link';
+import { FcGoogle } from "react-icons/fc"
+import { FaSquareFacebook } from 'react-icons/fa6';
 
 const Login = () => {
     return (
@@ -17,13 +17,18 @@ const Login = () => {
             <div className='bg-black flex flex-col'>
                 <div className='w-[60vh] h-fit cursor-pointer flex flex-col rounded-[25px] text-center border-black  bg-white justify - self-center justify-self-center border '>
                     <div className='p-14'>
-                        <h3 className='rounded-full   border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold'>Entre com google
-                            <Image alt="google" className='w-8 ml-5 inline-flex h-8' src={Google} />
+                        <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold flex justify-center items-center'>
+                            Entre com google
+                            <FcGoogle className='ml-4' size={30}/>
+                            {/* <Image alt="google" className='w-8 ml-5 inline-flex h-8' src={Google} /> */}
                         </h3>
-                        <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18] font-bold'>Entre com Facebook
-                            <Image alt="facebook" className='w-8 ml-3 inline-flex h-8' src={Facebook} />
+                        <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold text-center flex justify-center items-center'>
+                            Entre com Facebook
+                            <FaSquareFacebook className='ml-4' size={30}/>
+                            {/* <Image alt="facebook" className='w-8 ml-3 inline-flex h-8' src={Facebook} /> */}
                         </h3>
-                        <h3 className='rounded-full t border-2 p-1 mt-3 border-black text-[#150190] text-[18] font-bold'>Entre com Instagram
+                        <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold text-center flex justify-center items-center'>
+                            Entre com Instagram
                             <Image alt="instagram" className='w-8 inline-flex ml-3 h-8' src={Instagram} />
                         </h3>
                     </div>
