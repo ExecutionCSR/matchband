@@ -9,7 +9,7 @@ const Header = () => {
                 <Image className="w-[4rem] h-[2rem] justify-end" src={Icone} alt="icone" />
             </div>
             <div>
-                <Image className="w-[4rem] h-[2rem] justify-start" src={Logo} />
+                <Image alt="logo" className="w-[4rem] h-[2rem] justify-start" src={Logo} />
             </div>
         </div>
     )

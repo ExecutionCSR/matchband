@@ -12,19 +12,19 @@ const Login = () => {
             <div className='flex items-center justify-center'>
                 <div className=" absolute w-[500px] h-[500px] bg-white border-[3px] border-[#2400FF]" style={{ "clipPath": "polygon(100% 50%, 0 0, 0 100%)" }}>
                 </div>
-                <Image className='z-10 w-[30rem] mr-[5rem]' src={Logo} />
+                <Image alt="logo" className='z-10 w-[30rem] mr-[5rem]' src={Logo} />
             </div>
             <div className='bg-black flex flex-col'>
                 <div className='w-[60vh] h-fit cursor-pointer flex flex-col rounded-[25px] text-center border-black  bg-white justify - self-center justify-self-center border '>
                     <div className='p-14'>
                         <h3 className='rounded-full   border-2 p-1 mt-3 border-black text-[#150190] text-[18px] font-bold'>Entre com google
-                            <Image className='w-8 ml-5 inline-flex h-8' src={Google} />
+                            <Image alt="google" className='w-8 ml-5 inline-flex h-8' src={Google} />
                         </h3>
                         <h3 className='rounded-full border-2 p-1 mt-3 border-black text-[#150190] text-[18] font-bold'>Entre com Facebook
-                            <Image className='w-8 ml-3 inline-flex h-8' src={Facebook} />
+                            <Image alt="facebook" className='w-8 ml-3 inline-flex h-8' src={Facebook} />
                         </h3>
                         <h3 className='rounded-full t border-2 p-1 mt-3 border-black text-[#150190] text-[18] font-bold'>Entre com Instagram
-                            <Image className='w-8 inline-flex ml-3 h-8' src={Instagram} />
+                            <Image alt="instagram" className='w-8 inline-flex ml-3 h-8' src={Instagram} />
                         </h3>
                     </div>
                     {/* formulario  */}
