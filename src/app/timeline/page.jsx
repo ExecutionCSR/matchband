@@ -22,7 +22,7 @@ export default async function TimeLine() {
                 {data.map((post, index) => {
                     let { usuario: { nome }, dataPostagem, conteudo, likes, compartilhamento, ameis } = post;
                     dataPostagem = new Date(dataPostagem).toLocaleString("en-GB")
-                    return <div className="bg-white w-[80%]  border-[1px] border-[#2400FF] m-2 rounded-lg" >
+                    return <div key={post.id} className="bg-white w-[80%]  border-[1px] border-[#2400FF] m-2 rounded-lg" >
                         <div className="grid">
                             <div className="flex items-center justify-between p-2" name="post-user">
                                 <div className="flex items-center rounded " name="post-user-information">
