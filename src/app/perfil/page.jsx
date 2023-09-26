@@ -8,8 +8,8 @@ const Criarperfil = () => {
         <div className="z-10 h-[2rem] w-[50%] rounded border-[1px] bg-[#2107C5] border-[#2400FF] mt-[-1rem]"></div>
       </div>
 
-      <div className="  w-[90% ] max-w-[80%] h-[81vh] ">
-        <div className="  ml-[25%] p-5 h-[90%] border-solid border-2  border-black ">
+ 
+        <div className="  ml-[25%] p-2  h-[90%] border-solid border-2  border-black ">
           <div>
             <span className="m-10">Coloue sua foto de perfil</span>
             <span className="m-10"> Escreva sua bio:</span>
@@ -24,7 +24,7 @@ const Criarperfil = () => {
           </div>
         </div>
         
-      </div>
+
       
 
       <div className="m-4 flex flex-col-reverse justify-center  items-center">
