@@ -9,7 +9,7 @@ const Criarperfil = () => {
       </div>
 
  
-        <div className="  ml-[25%] p-2  h-[90%] border-solid border-2  border-black ">
+        <div className=" w-[30rem ]  h-[45rem]  border-solid border-2  border-black ">
           <div>
             <span className="m-10">Coloue sua foto de perfil</span>
             <span className="m-10"> Escreva sua bio:</span>
