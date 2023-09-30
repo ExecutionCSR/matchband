@@ -1,11 +1,13 @@
 import React from "react"
 import Button from "@/components/button";
 import { FaUser } from "react-icons/fa6";
-import Image from "next/image";
 
 export default function Modal({ isVisible }) {
+    if (!Number(isVisible)) {
+        return null;
+    };
     return (
-        <div name="modal-post-create" className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center z-50 hidden">
+        <div name="modal-post-create" className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center z-50    ">
             <div className="bg-white w-[60%]  border-[1px] border-[#2400FF] m-2 rounded-lg" >
                 <div className="grid">
                     <div className="flex items-center justify-between p-2" name="post-user">
@@ -24,7 +26,6 @@ export default function Modal({ isVisible }) {
                     <div name="post-body" className="p-2 w-[80%] justify-self-center">
                         <div name="post-body-text-content" >
                             <textarea maxLength={500} className="text-[1.2rem] w-full text-black border-2 border-black rounded-xl" rows={3}>
-
                             </textarea>
                         </div>
                         <div name="post-body-file-content" className=" hidden ">
@@ -36,7 +37,7 @@ export default function Modal({ isVisible }) {
                             <Button class="bg-[#2400FF] text-white text-[1.2rem] border px-6 border-black py-1 rounded-full" titulo="Anexar" />
                         </div>
                         <div name="post-likes-heart" className="flex justify-between items-center px-2">
-                            <Button class="bg-white text-black text-[1.2rem] border px-6 border-black py-1 rounded-full mx-2" titulo="Cancelar" />
+                            <Button class="bg-white text-black text-[1.2rem] border px-6 border-black py-1 rounded-full mx-2" titulo="Cancelar" click={() => { setHidden(true) }} />
                             <Button class="bg-[#2400FF] text-white text-[1.2rem] border px-6 border-black py-1 rounded-full mx-2" titulo="Post" />
                         </div>
                     </div>

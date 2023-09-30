@@ -1,9 +1,10 @@
+import React from "react";
 import PaginaInicial from "./paginainicial/page";
 
-
-
-export default function Home() {
+const Home = () => {
   return (
     <PaginaInicial />
   )
 }
+
+export default Home;
