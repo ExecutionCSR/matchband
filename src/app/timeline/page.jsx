@@ -15,7 +15,7 @@ export default function TimeLine() {
         Api.get('/posts/timeline', {}).then(result => {
             setPosts(result.data)
         });
-    },[])
+    }, [])
     return (
         <main className=" h-[100vh] ">
             <Header />

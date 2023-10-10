@@ -1,4 +1,4 @@
-
+"use client";
 import Logo from '../../../public/icone.png';
 import Instagram from '../../../public/instagram.jpg';
 import Image from 'next/image';
@@ -6,7 +6,16 @@ import Link from 'next/link';
 import { FcGoogle } from "react-icons/fc"
 import { FaSquareFacebook } from 'react-icons/fa6';
 
+
+
 const Login = () => {
+    function handleSubmit(event) {
+
+        console.log(event);
+        event.preventDefault();
+        let wInput = new Object();
+        document.querySelectorAll('[id="form-login"] input')
+    }
     return (
         <section className='grid bg-black grid-cols-2'>
             <div className='flex items-center justify-center'>
@@ -33,7 +42,7 @@ const Login = () => {
                         </h3>
                     </div>
                     {/* formulario  */}
-                    <form className=' w-[100%] cursor-pointer'>
+                    <form id='form-login' method="post" onSubmit={handleSubmit} className=' w-[100%] cursor-pointer'>
                         <label className='flex ml-5 text-black' htmlFor='email'>Email </label>
                         <input name='email' type='email' className='w-[90%] border-2 border-black  rounded-full peer text-black' />
                         <p className=" invisible peer-invalid:visible text-pink-600 text-sm">
@@ -49,8 +58,8 @@ const Login = () => {
 
                     {/* Botao */}
                     <div className=' text-right pr-10 pt-5 '>
+                        <button type='submit' onClick={handleSubmit} className="rounded-full border-[2px] border-black w-24 text-white p-1 bg-[#150190]">Logar</button>
                         <Link href="/cadastro">
-                            <button className="rounded-full border-[2px] border-black w-24 text-white p-1 bg-[#150190]">Logar</button>
                             <p className='text-[#150190]'>Ou Cadastre-se</p>
                         </Link>
                     </div>
