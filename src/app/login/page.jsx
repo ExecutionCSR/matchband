@@ -15,7 +15,7 @@ const Login = () => {
         event.preventDefault();
         let wInput = new Object();
         document.querySelectorAll('[id="form-login"] input')
-    }
+    };
     return (
         <section className='grid bg-black grid-cols-2'>
             <div className='flex items-center justify-center'>
@@ -53,7 +53,10 @@ const Login = () => {
                         <p className=" invisible peer-invalid:visible text-pink-600 text-sm">
                             Por favor insira uma senha valida.
                         </p>
-                        <a className="text-[#150190] flex ml-8 ">Esqueci minha senha</a>
+                        <Link href="/esquecisenha">
+                            <p className="text-[#150190] flex ml-8 ">Esqueci minha senha</p>
+                        </Link>
+
                     </form>
 
                     {/* Botao */}

@@ -34,11 +34,11 @@ export default function Modal({ isVisible }) {
                     </div>
                     <div name="post-likes" className="text-black flex justify-between p-2 mt-6">
                         <div name="post-likes-like" className="flex items-center px-2">
-                            <Button class="bg-[#2400FF] text-white text-[1.2rem] border px-6 border-black py-1 rounded-full" titulo="Anexar" />
+                            <Button classe="bg-[#2400FF] text-white text-[1.2rem] border px-6 border-black py-1 rounded-full" titulo="Anexar" />
                         </div>
                         <div name="post-likes-heart" className="flex justify-between items-center px-2">
-                            <Button class="bg-white text-black text-[1.2rem] border px-6 border-black py-1 rounded-full mx-2" titulo="Cancelar" click={() => { setHidden(true) }} />
-                            <Button class="bg-[#2400FF] text-white text-[1.2rem] border px-6 border-black py-1 rounded-full mx-2" titulo="Post" />
+                            <Button classe="bg-white text-black text-[1.2rem] border px-6 border-black py-1 rounded-full mx-2" titulo="Cancelar" click={() => { setHidden(true) }} />
+                            <Button classe="bg-[#2400FF] text-white text-[1.2rem] border px-6 border-black py-1 rounded-full mx-2" titulo="Post" />
                         </div>
                     </div>
                 </div>

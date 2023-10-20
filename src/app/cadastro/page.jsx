@@ -20,10 +20,10 @@ const Cadastro = () => {
 
                     <div className="text-right text-lg">
                         <Link href="/">
-                            <Button class="border-2 pl-8 pr-8 border-black rounded-2xl mr-11 text-black active:bg-[#150190] active:text-[white]" titulo="Voltar" />
+                            <Button classe="border-2 pl-8 pr-8 border-black rounded-2xl mr-11 text-black active:bg-[#150190] active:text-[white]" titulo="Voltar" />
                         </Link>
                         <Link href="/perfil">
-                            <Button class="border-2 pl-8 pr-8 border-black rounded-2xl text-black bg-white active:bg-[#150190] active:text-[white]" titulo="Continuar" />
+                            <Button classe="border-2 pl-8 pr-8 border-black rounded-2xl text-black bg-white active:bg-[#150190] active:text-[white]" titulo="Continuar" />
                         </Link>
                     </div>
 

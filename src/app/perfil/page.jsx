@@ -46,10 +46,10 @@ const Criarperfil = () => {
           </div>
           <div className=" w-full  text-lg flex items-center justify-between p-4">
             <Link href="/">
-              <Button class="border-2 pl-8 pr-8 border-black rounded-2xl text-black active:bg-[#150190] active:text-[white]" titulo="Voltar" />
+              <Button classe="border-2 pl-8 pr-8 border-black rounded-2xl text-black active:bg-[#150190] active:text-[white]" titulo="Voltar" />
             </Link>
             <Link href="/perfil">
-              <Button class="border-2 pl-8 pr-8 border-black rounded-2xl text-black bg-white active:bg-[#150190] active:text-[white]" titulo="Continuar" />
+              <Button classe="border-2 pl-8 pr-8 border-black rounded-2xl text-black bg-white active:bg-[#150190] active:text-[white]" titulo="Continuar" />
             </Link>
           </div>
         </div>

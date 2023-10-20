@@ -1,9 +1,9 @@
 
-export default function Button(props) {
+export default function Button({ classe, icone, titulo }) {
     return (
-        <button className={props.class || "border border-black p-1 rounded"}>
-            {props.icone}
-            {props.titulo || "Clique"}
+        <button className={classe || "border border-black p-1 rounded"}>
+            {icone}
+            {titulo || "Clique"}
         </button>
     )
 }
